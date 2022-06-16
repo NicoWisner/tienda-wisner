@@ -1,11 +1,15 @@
-import './App.css';
+import react from 'react'
+import { Nav } from './components/NavBar'
+import "./estilos.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-     <h1> Hello World </h1>
+    <div>
+      <Nav/>
+      <div className = "div-h1">
+      <h1>Mi E-Commerce</h1>
+      </div>
     </div>
-  );
+  )
 }
-
-export default App;
+export default App 
