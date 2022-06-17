@@ -1,7 +1,9 @@
 import react from 'react';
 import "../estilos.css"; 
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import logo from "./assets/logo.png";
+import Carrito from './CartWidjet';
+
+
 
 export const Nav = () =>{
     return (
@@ -17,11 +19,10 @@ export const Nav = () =>{
             </button>
             <button className= "btn">
                 Nosotros
-            </button>           
-            <button className= "img-2">
-                <ShoppingCartIcon/>
-            </button>
-           
+            </button>       
+
+            <Carrito/>    
+                  
         </nav>
     )
 }

@@ -1,6 +1,6 @@
 .btn{
     border: 0px;
-    padding: 15 px;
+    
     margin-left: 300px;
     cursor: pointer;    
     justify-content: space-between;
@@ -8,16 +8,15 @@
 
 .img-1{    
     border: 0px;
-    padding: 50 px;
+    
     cursor: pointer;
     width: 7%;
 }    
 .img-2{    
     margin-left: 300px;
-    border: 0px;
-    padding: 50 px;
+    border: 0px;    
     cursor: pointer;
-    width: 15%;
+    
 }    
 h1{    
     width: 15%;
@@ -29,6 +28,14 @@ h1{
         display: flex;
         justify-content: center;
         text-align: center;
+      } 
+      .div{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        
       } 
 
 

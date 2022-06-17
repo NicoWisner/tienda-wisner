@@ -1,4 +1,5 @@
 import react from 'react'
+import Title from './components/ItemListContainer';
 import { Nav } from './components/NavBar'
 import "./estilos.css";
 
@@ -6,9 +7,10 @@ const App = () => {
   return (
     <div>
       <Nav/>
-      <div className = "div-h1">
-      <h1>Mi E-Commerce</h1>
-      </div>
+      <br/>
+      <br/>
+      <Title greeting={"Mi E-Commerce"}/>
+     
     </div>
   )
 }
